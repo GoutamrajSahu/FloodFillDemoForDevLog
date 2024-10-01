@@ -39,10 +39,6 @@ public class Grid
         }
         Debug.DrawLine(GetWorldPosition(0, height), GetWorldPosition(width, height), Color.blue, 100f);
         Debug.DrawLine(GetWorldPosition(width, 0), GetWorldPosition(width, height), Color.blue, 100f);
-
-        // CameraHandler.instance.cam.transform.position = new Vector3();
-
-        //CameraHandler.instance.SetCameraPosition(GetWorldPosition(width/2, height/2) + new Vector3(0,0,-10));
     }
 
     private Vector3 GetWorldPosition(float x, float y)
